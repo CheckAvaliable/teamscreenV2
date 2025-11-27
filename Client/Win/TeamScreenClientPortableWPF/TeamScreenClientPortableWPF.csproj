@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>TeamScreenClientPortableWPF</AssemblyName>
+    <RootNamespace>TeamScreenClientPortableWPF</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Toolkit.Wpf.UI.Controls" Version="7.1.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="LiteNetLib" Version="1.2.0" />
+    <PackageReference Include="Microsoft.Xaml.Behaviors" Version="1.1.39" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../../../Core/Messages/Messages.csproj" />
+    <ProjectReference Include="../../../Core/Network/Network.csproj" />
+    <ProjectReference Include="../../../Core/Utils/Utils.csproj" />
+  </ItemGroup>
+
+</Project>
