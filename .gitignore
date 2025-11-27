@@ -1,43 +1,38 @@
-# Autosave files
-*~
-
-# build
-[Oo]bj/
-[Bb]in/
-packages/
-TestResults/
-.vs/
-
-# globs
-Makefile.in
-*.DS_Store
-*.sln.cache
+```
+# Compiled and build artifacts
+*.obj
+*.exe
+*.dll
+*.pdb
+*.user
 *.suo
 *.cache
-*.pidb
+*.log
+*.tmp
+
+# Dependencies
+packages/
+node_modules/
+lib/
+
+# Build outputs
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+*.nupkg
+
+# Editors
+.vs/
+.vshistory/
+.vscode/
 *.userprefs
-*.usertasks
-config.log
-config.make
-config.status
-aclocal.m4
-install-sh
-autom4te.cache/
-*.user
-*.tar.gz
-tarballs/
-test-results/
+
+# OS generated files
+.DS_Store
 Thumbs.db
-
-# Mac bundle stuff
-*.dmg
-*.app
-
-# resharper
-*_Resharper.*
-*.Resharper
-
-# dotCover
-*.dotCover
-
-UpgradeLog2.htm
+ehthumbs.db
+Icon?
+```
